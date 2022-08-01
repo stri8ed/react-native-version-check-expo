@@ -24,7 +24,8 @@
     "expo": ">=26"
   },
   "dependencies": {
-    "react-native-version-check": "^3.4.3"
+    "react-native-version-check": "^3.4.3",
+	 "expo-constants": "13.1.0"
   },
   "devDependencies": {
     "expo": "^33.0.0",
