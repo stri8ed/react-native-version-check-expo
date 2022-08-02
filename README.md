@@ -3,6 +3,8 @@ Fork of https://github.com/kimxogus/react-native-version-check which does not re
 Usage:
 
 ```
+import VersionCheck from 'expo-react-native-version-checker';
+
 VersionCheck('US').getLatestVersion()
 .then(latestVersion => {
 	console.log(latestVersion);
