@@ -5,6 +5,6 @@ Usage:
 ```
 VersionCheck('US').getLatestVersion()
 .then(latestVersion => {
-	console.log(latestVersion);    // 0.1.2
+	console.log(latestVersion);
 });
 ```
