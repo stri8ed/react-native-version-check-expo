@@ -1,6 +1,6 @@
 {
-  "name": "expo-react-native-version-check",
-  "version": "3.4.3",
+  "name": "expo-react-native-version-checker",
+  "version": "1.0.0",
   "description": "A version checker for react-native expo applications",
   "main": "index.js",
   "keywords": [
