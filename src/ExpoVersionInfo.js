@@ -30,9 +30,9 @@ const CURRENT_VERSION = RNVersionCheck.currentVersion;
 
 export default function(country) {
 	return {
-	  getCountry: () => Promise.resolve(country),
-	  getPackageName: () => PACKAGE_NAME,
-	  getCurrentBuildNumber: () => CURRENT_BUILD_NUMBER,
-	  getCurrentVersion: () => CURRENT_VERSION,
+		getCountry: () => Promise.resolve(country),
+		getPackageName: () => PACKAGE_NAME,
+		getCurrentBuildNumber: () => CURRENT_BUILD_NUMBER,
+		getCurrentVersion: () => CURRENT_VERSION,
 	};
 };
