@@ -1,5 +1,5 @@
 {
-  "name": "react-native-version-check-expo",
+  "name": "expo-react-native-version-check",
   "version": "3.4.3",
   "description": "A version checker for react-native expo applications",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "app store version"
   ],
   "license": "MIT",
-  "author": "Taehyun Kim <kgyoo8232@gmail.com> (https://github.com/kimxogus)",
+  "author": "https://github.com/stri8ed",
   "contributors": [
     "Taehyun Kim <kgyoo8232@gmail.com>",
     "Thomas Schoffelen <thomas@includable.com>"
@@ -30,5 +30,9 @@
   "devDependencies": {
     "expo": "^33.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz"
-  }
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/stri8ed/react-native-version-check-expo.git"
+  },
 }
