@@ -8,7 +8,7 @@ const {
     ios: { bundleIdentifier = null, buildNumber = null } = {},
 } = manifest;
 
-const = RNVersionCheck = {
+const RNVersionCheck = {
     currentVersion: version,
     currentBuildNumber: Platform.select({
         android: versionCode,
